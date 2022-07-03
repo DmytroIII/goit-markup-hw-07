@@ -1,0 +1,13 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu>li:not(last-child) {
+    margin-right: 8px;
+}
+
+.main-menu {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
