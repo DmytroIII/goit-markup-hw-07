@@ -401,8 +401,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-.section_title {
+.banner_title {
   color: var(--button-and-h1-color);
   text-transform: uppercase;
   font-size: 44px;

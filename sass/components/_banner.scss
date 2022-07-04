@@ -12,9 +12,8 @@
     max-height: 600px;
     margin-left: auto;
     margin-right: auto;
-}
 
-.section_title {
+    &_title {
     color: var(--button-and-h1-color);
     text-transform: uppercase;
     font-size: 44px;
@@ -24,4 +23,6 @@
     letter-spacing: 0.06em;
     max-width: 696px;
     margin: 0 auto 45px auto;
+}
+  
 }
