@@ -1,3 +1,28 @@
+
+.button-close {
+    display: flex;
+    margin-left: auto;
+
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+
+    &__icon {
+    fill: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    }
+        &:hover &__icon {
+            fill: #2196F3;
+    }
+}
+
 .button {
     font-family: Roboto, sans-serif;
     background-color: var(--background-button-hover);
@@ -51,30 +76,9 @@
     padding-right: 55px;
 }
 
-.button-close-svg {
-    fill: #000000;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-}
 
-.button-close {
-    display: flex;
-    margin-left: auto;
 
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
-    cursor: pointer;
-    position: absolute;
-    right: 8px;
-    top: 8px;
-}
 
-.button-close:hover .button-close-svg {
-    fill: #2196F3;
-}
 
 .form-mailing-list button {
     width: 200px;
