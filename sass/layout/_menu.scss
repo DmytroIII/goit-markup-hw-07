@@ -1,13 +1,15 @@
+
 .menu {
-    display: flex;
-    justify-content: center;
-}
-
-.menu>li:not(last-child) {
-    margin-right: 8px;
-}
-
-.main-menu {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    &__item:not(last-child) {
+    margin-right: 8px;
+    }
+
 }
